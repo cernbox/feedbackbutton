@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info>
+	<id>feedbackbutton</id>
+	<name>Feedback Button</name>
+	<description>
+	</description>
+	<licence>AGPL</licence>
+	<author>CERNBox Team</author>
+	<default_enable/>
+	<version>0.0.1</version>
+	<types>
+		<filesystem/>
+	</types>
+	<namespace>FeedbackButton</namespace>
+	<dependencies>
+		<owncloud min-version="10.0"/>
+	</dependencies>
+</info>

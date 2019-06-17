@@ -1,0 +1,11 @@
+
+.feedback_button {
+	position: fixed !important;
+	bottom: 44px;
+	width: inherit !important;
+	background-color: #fff;
+	border-right: 1px solid #eee;
+}
+.icon-feedback {
+	background-image: url('../../../core/img/actions/comment.svg');
+}
