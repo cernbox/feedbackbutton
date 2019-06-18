@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-	var url = "https://cern.service-now.com/service-portal/report-ticket.do?name=request&se=CERNBox-Service";
+	var url = "https://cern.service-now.com/service-portal/report-ticket.do?name=cernbox-feedback&se=CERNBox-Service";
 
 	var button = $('<li/>')
 		.addClass('feedback_button');
