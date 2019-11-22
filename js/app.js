@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	$('<a/>')
 		.addClass('icon-issue')
-		.text("Report an issue")
+		.text("Report a problem")
 		.attr('href', issue_url)
 		.attr('target','_blank')
 		.on('click', function(){
@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 	$('<a/>')
 		.addClass('icon-feedback')
-		.text("Feedback")
+		.text("Feature request/suggestions")
 		.attr('href', feedback_url)
 		.attr('target','_blank')
 		.on('click', function(){
