@@ -1,7 +1,7 @@
 
 .feedback_button {
 	position: fixed !important;
-	bottom: 88px;
+	bottom: 44px;
 	width: inherit !important;
 	background-color: #fff;
 	border-right: 1px solid #eee;
@@ -17,7 +17,7 @@
 
 .issue_button {
 	position: fixed !important;
-	bottom: 44px;
+	bottom: 88px;
 	width: inherit !important;
 	background-color: #fff;
 	border-right: 1px solid #eee;
@@ -29,5 +29,5 @@
 	background-image: url('../../../core/img/actions/comment.svg');
 }
 .icon-issue {
-	background-image: url('../../../core/img/bug.svg');
+	background-image: url('../../../core/img/actions/error.svg');
 }
