@@ -1,8 +1,7 @@
 
 $(document).ready(function() {
 
-	
-	var issue_url = "https://cern.service-now.com/service-portal/report-ticket.do?name=incident&se=CERNBox-Service";
+	var issue_url = "https://cern.service-now.com/service-portal?id=sc_cat_item&name=incident&se=CERNBox-Service";
 	var button = $('<li/>')
 		.addClass('issue_button');
 
@@ -18,8 +17,7 @@ $(document).ready(function() {
 		.appendTo(button);
 
 	$('#app-navigation ul').append(button);
-
-	var feedback_url = "https://cern.service-now.com/service-portal/report-ticket.do?name=cernbox-feedback&se=CERNBox-Service";
+	var feedback_url = "https://cern.service-now.com/service-portal?id=sc_cat_item&name=cernbox-feedback&se=CERNBox-Service&cernbox_service_instance=Production";
 	var button = $('<li/>')
 		.addClass('feedback_button');
 
